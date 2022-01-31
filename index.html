@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Presentation</title>
+
+  <style>
+    body {
+      padding: 1.5rem;
+      background-color: lightblue;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    p {
+      text-align: left;
+
+    }
+
+    .peter {
+      /* How many columns */
+      column-count: 3;
+      /* The gap between columns */
+      column-gap: 40px;
+      /* Column-rule-style: none, hidden, dotted, dashed, solid, double
+      groove, ridge, inset, outset, initial, inherit */
+      column-rule-style: inherit;
+      /* Width */
+      column-rule-width: 1px;
+      column-rule-color: blue;
+      /* Or Combined */
+      column-rule: 1px solid lightblue;
+
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Joe Slaugh CSS Presentation: multiple columns </h1>
+
+    <h2>What do we mean by multiple columns?</h2>
+    <p>Simply put it means we take the page and slice it into different segments in
+      which we can place information. Look below for our first example.
+    </p>
+    <div>
+      <p> In this example we are going to take the time to display how different columns work. This example shows what
+        happens if the only thing you enter in is how many columns you would like. It takes the text and wraps it around
+        each column and is not the best looking design but i guess it could work in the long run if we didn't care to
+        much. In the following example we might see a better understanding of what multiple columns do and what we might
+        do to improve the capacity to read this new information. </p>
+    </div>
+    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNXrNme" data-editable="true"
+      data-user="jslaugh"
+      style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/jslaugh/pen/WNXrNme">
+          Untitled</a> by JSlaugh (<a href="https://codepen.io/jslaugh">@jslaugh</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+    <h2>Let's add more css</h2>
+    <p> Some people when they are coding websites they want the text to look a center way.
+      Depending on what they are doing they might want parts of their work to take up the entire screen and other parts
+      to only span different columns.
+      How might we make that work? It's easy enough we use something called column-span.
+    </p>
+
+    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGYENGb" data-editable="true"
+      data-user="jslaugh"
+      style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/jslaugh/pen/bGYENGb">
+          Untitled</a> by JSlaugh (<a href="https://codepen.io/jslaugh">@jslaugh</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+    <p>If you look at the bottom of the example above you can see there is a slight problem.</p>
+
+    <h2>How does the text fill work?</h2>
+
+    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abVdOBx" data-editable="true"
+      data-user="jslaugh"
+      style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/jslaugh/pen/abVdOBx">
+          Untitled</a> by JSlaugh (<a href="https://codepen.io/jslaugh">@jslaugh</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+    <h2>Spacing?</h2>
+    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOaWPwz" data-editable="true"
+      data-user="jslaugh"
+      style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/jslaugh/pen/jOaWPwz">
+          Untitled</a> by JSlaugh (<a href="https://codepen.io/jslaugh">@jslaugh</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <h2>Rule?</h2>
+    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNobXeg" data-editable="true"
+      data-user="jslaugh"
+      style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/jslaugh/pen/oNobXeg">
+          Untitled</a> by JSlaugh (<a href="https://codepen.io/jslaugh">@jslaugh</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  </main>
+</body>
+
+</html>
